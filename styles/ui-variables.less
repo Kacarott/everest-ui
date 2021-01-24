@@ -1,34 +1,21 @@
 
 // UI Variables
 // -------------------
-// Reskinned
 
-@ghost-jellyfish: rgb(2, 58, 80);
-@water-dragon: rgb(55, 35, 90);
-@bioluminescence: rgb(22, 108, 143);
-@phantom: rgb(1, 35, 47);
-@shipwreck: rgb(4, 30, 28);
-@abyss: rgb(0, 2, 10);
-@tentacle: rgb(55, 4, 88);
-@silt: rgb(55, 71, 98);
-@bedrock: rgb(20, 65, 70);
-@geyser: rgb(77, 0, 45);
-@mud: rgb(42, 28, 40);
-@giant-crab: rgb(48, 10, 28);
-@depth: rgb(0, 35, 80);
-@bone: rgb(80, 82, 105);
-@dull-gold: rgb(83, 83, 24);
-@swordfish: rgb(40, 37, 95);
-@haze: rgb(51, 51, 51);
-@ink: rgb(28, 31, 34);
-@blood: rgb(61, 7, 32);
-@gulper-eel: rgb(0, 54, 27);
+@snow:    #fdfcfd;  // White
+@cloud:   #d1d9e1;  // Light grey
+@frost:   #b9d9e9;  // Pale blue
+@sky:     #9b9fab;  // Blueish grey
+@stone:   #3e4755;  // Dark blueish grey
+@ice:     #6290b3;  // Blue
+@crevace: #19191f;  // Black
+
 
 // Text Colors
-@text-color:           @ghost-jellyfish;
-@text-color-subtle:    @phantom;
-@text-color-highlight: hsl(175, 76%, 46%);
-@text-color-selected:  @bioluminescence;
+@text-color:           @stone;
+@text-color-subtle:    @sky;
+@text-color-highlight: @stone;
+@text-color-selected:  @stone;
 
 @text-color-info:    hsl(202, 61%, 73%);
 @text-color-success: hsl(140, 60%, 32%);
@@ -46,8 +33,8 @@
 @app-background-color:       darken(@base-background-color, 0%);
 
 // Base colors
-@base-background-color: @abyss;
-@base-border-color:     @abyss;
+@base-background-color: @cloud;
+@base-border-color:     @cloud;
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -59,7 +46,7 @@
 @tool-panel-background-color: @base-background-color;
 @tool-panel-border-color:     @base-border-color;
 
-@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-background-color: @stone;
 @inset-panel-border-color:     @base-border-color;
 
 @panel-heading-background-color: lighten(@base-background-color, 4%);
@@ -83,11 +70,11 @@
 @tree-view-border-color:     @base-background-color;
 
 // Site colors
-@ui-site-color-1: darken(hsl(208, 100%, 50%),18%);
-@ui-site-color-2: darken(hsl(160,  70%, 42%),18%);
-@ui-site-color-3: darken(hsl(32,   60%, 50%),18%);
-@ui-site-color-4: darken(#D831B0,18%);
-@ui-site-color-5: darken(#EBDD5B,25%);
+@ui-site-color-1: @snow;
+@ui-site-color-2: @cloud;
+@ui-site-color-3: @frost;
+@ui-site-color-4: @sky;
+@ui-site-color-5: @ice;
 
 // Sizes
 @font-size: 12px;
